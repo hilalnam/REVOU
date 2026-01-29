@@ -63,12 +63,13 @@ project/
 ├── index.html
 ├── README.md
 ├── css/
-│ └── style.css
+│   └── style.css
 ├── js/
-│ └── script.js
-└── img/
-├── logo-rice-solution.png
-└── banner-rice-solution.png
+│   └── script.js
+├── logo.png
+└── banner.png
+
+
 
 🌐 Live Website
 
