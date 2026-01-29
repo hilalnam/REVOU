@@ -1,0 +1,102 @@
+html { scroll-behavior: smooth; }
+
+.navlink{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border-radius: 14px;
+  font-weight: 800;
+  font-size: 14px;
+  border: 1px solid rgba(0,0,0,0.08);
+  background: rgba(255,255,255,0.92);
+}
+.navlink:hover{ background: rgba(248,250,252,1); }
+.navlink-active{
+  border-color: rgba(16,185,129,0.35);
+  background: rgba(16,185,129,0.08);
+  color: rgb(4,120,87);
+}
+
+.statcard{
+  border: 1px solid rgba(0,0,0,0.08);
+  background: rgba(255,255,255,0.92);
+  border-radius: 20px;
+  padding: 14px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+}
+
+.infocard{
+  border: 1px solid rgba(0,0,0,0.08);
+  background: rgba(255,255,255,0.92);
+  border-radius: 22px;
+  padding: 18px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+}
+
+.hqcard{
+  border: 1px solid rgba(0,0,0,0.08);
+  background: rgba(255,255,255,0.92);
+  border-radius: 24px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+}
+.hqcircle{
+  width: 92px;
+  height: 92px;
+  border-radius: 999px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 2px solid rgba(16,185,129,0.25);
+  background: rgba(16,185,129,0.08);
+}
+.hqcircle img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.input{
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,0.10);
+  background: white;
+  padding: 10px 14px;
+  outline: none;
+}
+.input:focus{
+  border-color: rgba(16,185,129,0.55);
+  box-shadow: 0 0 0 6px rgba(16,185,129,0.12);
+}
+
+.error{
+  min-height: 16px;
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 800;
+  color: rgb(220, 38, 38);
+}
+
+.outrow{
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  border: 1px dashed rgba(0,0,0,0.12);
+  border-radius: 16px;
+  padding: 10px 12px;
+  background: rgba(255,255,255,0.92);
+}
+.outlabel{ font-size: 12px; font-weight: 900; color: rgba(15,23,42,0.72); }
+.outvalue{ font-size: 14px; font-weight: 900; color: rgba(15,23,42,0.95); }
+
+.rice-card{ position: relative; }
+.rice-card:before{
+  content:"";
+  position:absolute;
+  inset:-2px;
+  border-radius: 26px;
+  background: linear-gradient(90deg, rgba(16,185,129,0.18), rgba(163,230,53,0.18), rgba(251,191,36,0.18));
+  filter: blur(12px);
+  z-index:-1;
+}
